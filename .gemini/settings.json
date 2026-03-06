@@ -1,0 +1,8 @@
+{
+  "mcp_endpoints": {
+    "vector": "http://localhost:8001",
+    "telemetry": "http://localhost:8002",
+    "memory": "http://localhost:8003",
+    "github": "http://localhost:8004"
+  }
+}
