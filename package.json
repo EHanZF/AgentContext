@@ -1,0 +1,22 @@
+{
+  "name": "cdyp7-wham-integration",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server/integrated-server.js",
+  "scripts": {
+    "start": "node server/integrated-server.js",
+    "test": "node -e \"console.log('ok')\"",
+    "start:secure": "NODE_ENV=production node server/integrated-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "js-yaml": "^4.1.0",
+    "ws": "^8.16.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "jose": "^5.3.0",
+    "zod": "^3.22.4",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
